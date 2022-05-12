@@ -1,6 +1,6 @@
 FROM debian
 RUN apt update
-RUN apt install wget
+RUN apt install wget -y
 RUN echo root:123456|chpasswd
 RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 RUN unzip ngrok-stable-linux-amd64.zip
