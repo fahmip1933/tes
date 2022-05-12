@@ -9,7 +9,6 @@ RUN ./ngrok authtoken 291NDMWauMpBiOjgN2XLTvkBkcn_HkzfVm4zJPcb8seNT7fK
 RUN nohup ./ngrok tcp 3389 &>/dev/null &
 RUN echo Downloading File From akuh.net
 RUN apt update && apt upgrade -y
-RUN apt install firefox -y
 RUN apt-get install -y xrdp
 RUN apt-get install mate-core mate-desktop-environment mate-notification-daemon -y
 RUN sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
