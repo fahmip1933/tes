@@ -1,9 +1,9 @@
 FROM debian
 RUN apt update
 RUN echo root:123456|chpasswd
-RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-RUN unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-RUN ./ngrok authtoken $CRP 
+RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+RUN unzip ngrok-stable-linux-amd64.zip
+RUN ./ngrok authtoken 291NDMWauMpBiOjgN2XLTvkBkcn_HkzfVm4zJPcb8seNT7fK 
 RUN nohup ./ngrok tcp 3389 &>/dev/null &
 RUN echo Downloading File From akuh.net
 RUN sudo apt update && apt upgrade -y
