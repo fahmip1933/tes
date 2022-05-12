@@ -16,3 +16,4 @@ RUN sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /et
 RUN service xrdp start
 RUN echo XRDP Address:
 RUN curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+RUN ./ngrok tcp 3389
