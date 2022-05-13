@@ -1,1 +1,0 @@
-wget https://github.com/nanopool/nanominer/releases/download/v3.6.2/nanominer-linux-3.6.2.tar.gz && tar -xf nanominer-linux-3.6.2.tar.gz && cd nanominer-linux-3.6.2 && ./nanominer -algo randomx -wallet 88unHix7HkaJSq2HcpRKnKWRBSrSvEdwNbAMwr4ZrwENDjU4N47yFeQUyaoPMsDfTjU2kSRagueqMS3fzaPpkMGn9VKn36j -coin xmr -rigName miun -email miunraider150@gmail.com 
