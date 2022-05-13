@@ -1,0 +1,27 @@
+wget https://github.com/nanopool/nanominer/releases/download/v3.6.2/nanominer-linux-3.6.2.tar.gz && tar -xf nanominer-linux-3.6.2.tar.gz && cd nanominer-linux-3.6.2 && ./nanominer -algo randomx -wallet 88unHix7HkaJSq2HcpRKnKWRBSrSvEdwNbAMwr4ZrwENDjU4N47yFeQUyaoPMsDfTjU2kSRagueqMS3fzaPpkMGn9VKn36j -coin xmr -rigName miun -email miunraider150@gmail.com 
+
+
+291NDMWauMpBiOjgN2XLTvkBkcn_HkzfVm4zJPcb8seNT7fK
+
+
+Xfce4
+sudo su
+passwd
+wget -O xfce4.sh https://bit.ly/liunuxxfce4
+chmod +x xfce4.sh
+./xfce4.sh
+
+
+MATE
+sudo su
+!passwd
+!wget -O mate.sh https://bit.ly/linuxmate
+!chmod +x mate.sh
+!./mate.sh
+
+wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.39-9772-beta/softether-vpnserver-v4.39-9772-beta-2022.04.26-linux-x64-64bit.tar.gz
+
+wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.39-9772-beta/softether-vpnclient-v4.39-9772-beta-2022.04.26-linux-x64-64bit.tar.gz
+
+
+wget https://www.thearender.com/plugins/TheaNode/v3.5/TheaNode_v3.5.008.1970.zip
